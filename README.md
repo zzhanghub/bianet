@@ -7,7 +7,7 @@
 
   <h3 align="center">Bilateral Attention Network for RGB-D Salient Object Detection</h3>
   <p align="center">
-    Prediction results of the BiANet. Codes is coming.
+    Prediction results of the BiANet. The code is coming.
     <br />
     <a href="https://arxiv.org/abs/2004.14582"><strong> Paper (arXiv) »</strong></a>
     <br />
