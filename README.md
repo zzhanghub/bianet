@@ -20,7 +20,7 @@ The official repo of the arXiv paper
 
 
 ## Prediction results
-The saliency maps of GICD can be found at [Baidu Pan (oq35)](https://pan.baidu.com/s/1h16-59p141f5FLWGoV-BOQ) and [Google Drive](https://drive.google.com/file/d/1lIA__L612VCy0x7tgABIgtw1lQF7GIUJ/view?usp=sharing).
+The saliency maps of BiANet can be found at [Baidu Pan (oq35)](https://pan.baidu.com/s/1h16-59p141f5FLWGoV-BOQ) and [Google Drive](https://drive.google.com/file/d/1lIA__L612VCy0x7tgABIgtw1lQF7GIUJ/view?usp=sharing).
 
 ## Code (Coming soon)
 
