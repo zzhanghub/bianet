@@ -7,25 +7,53 @@
 
   <h3 align="center">Bilateral Attention Network for RGB-D Salient Object Detection</h3>
   <p align="center">
-    Prediction results of the BiANet. The code is coming.
+    <!-- Published in IEEE Transactions on Image Processing (TIP) -->
     <br />
-    <a href="https://arxiv.org/abs/2004.14582"><strong> Paper (arXiv) »</strong></a>
+    <a href=#><strong> [Paper 📄]</strong></a>
+    <!-- <a href="https://arxiv.org/abs/2004.14582"><strong> [ArXiv 🌐]</strong></a> -->
+    <!-- <a href="https://arxiv.org/abs/2004.14582"><strong> [中译版 🐼]</strong></a> -->
+    <a href="http://zhaozhang.net"><strong> [Homepage 🏠] »</strong></a>
     <br />
   </p>
 </p>
 
 ***
-The official repo of the arXiv paper
-[Bilateral Attention Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2004.14582)
+<!-- The official repo of the paper
+[Bilateral Attention Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2004.14582) -->
 
 
-## Prediction results
-The saliency maps of BiANet can be found at [Baidu Pan (oq35)](https://pan.baidu.com/s/1h16-59p141f5FLWGoV-BOQ) and [Google Drive](https://drive.google.com/file/d/1lIA__L612VCy0x7tgABIgtw1lQF7GIUJ/view?usp=sharing).
+## Prerequisites
+#### Environments
+* PyTorch >= 1.0
+* Ubuntu 18.04
 
-## Code (Coming soon)
 
+<!-- USAGE EXAMPLES -->
+## Usage
+1. Download the [model parameters](#download) and [datasets](http://dpfan.net/d3netbenchmark/)
+2. Configure  `test.sh`
 
-## Citation
+``` 
+--backbones vgg16+vgg11+res50+res2_50 (Multiple items are connected with '+')
+--datasets dataset1+dataset2+dataset3
+--param_root param (pretrained model path)
+--input_root your_data_root (categorize by subfolders)
+--save_root your_output_root
+```
+
+3. Run by
+```
+sh test.sh
+```
+## <span id="download">Model parameters and prediction results <span>
+|   | Model parameters |  Prediction results |
+|  ----  | ----  | ----  |
+|  **VGG-16**  | [[Google Drive]](https://drive.google.com/file/d/1yfE2-4GH-QJo5JvvJbKRwXgzaRQ5e8h_/view?usp=sharing) [[Baidu Pan (ve52)]](https://pan.baidu.com/s/1x00PxMs9ojtzzRXIzKY8NA) | [[Google Drive]](https://drive.google.com/file/d/1JoDT4O2gtoaiafWky1T8nNcPxbGGeaz8/view?usp=sharing) [[Baidu Pan (fm28)]](https://pan.baidu.com/s/11AAWQFiWR-2VbdoM93XWpA) |
+|  VGG-11  | [[Google Drive]](https://drive.google.com/file/d/1TdTvZmPIbPfaX_BYI7dNTUoMI7IVXvFe/view?usp=sharing) [[Baidu Pan (2a5c)]](https://pan.baidu.com/s/1Usr-SNCPZADyISaIXPEZxA) | [[Google Drive]](https://drive.google.com/file/d/14aP1634QFjc0wQu8Unjme0lsmaJtlnFp/view?usp=sharing) [[Baidu Pan (d0t7)]](https://pan.baidu.com/s/1U-7hkmvfN8Pjj0pnC8VLGQ) |
+|  ResNet-50  | [[Google Drive]](https://drive.google.com/file/d/13vHFAR44v2bojEJppoB058QV0Vc9-Tm7/view?usp=sharing) [[Baidu Pan (o9l2)]](https://pan.baidu.com/s/1m0p7IN4GB2BWCcoj6kM_lw) | [[Google Drive]](https://drive.google.com/file/d/1E9kNo8PIZ4tbeoluQ0cJctFRKtffM_IY/view?usp=sharing) [[Baidu Pan (ssgc)]](https://pan.baidu.com/s/1cAnx70hZ5tLWEMmZXRlvVQ) |
+|  Res2Net-50  | [[Google Drive]](https://drive.google.com/file/d/1DppyXLs_toFi6bM5ZbGWip35BxLGfw4y/view?usp=sharing) [[Baidu Pan (k761)]](https://pan.baidu.com/s/1ycs9SI5bmIKBUbcNsrR7qQ) | [[Google Drive]](https://drive.google.com/file/d/1at-K6DfKNP2Gnao9f0v9agmzADkgt0Ik/view?usp=sharing) [[Baidu Pan (h3t9)]](https://pan.baidu.com/s/1YHVrDEl1-dCHgS2Fuc1Qzw) |
+
+<!-- ## Citation
 ```
 @article{zhang2020bianet,
   title={Bilateral attention network for rgb-d salient object detection},
@@ -33,8 +61,7 @@ The saliency maps of BiANet can be found at [Baidu Pan (oq35)](https://pan.baidu
   journal={arXiv preprint arXiv:2004.14582},
   year={2020}
 }
-```
-
+``` -->
 
 ## Contact
 If you have any questions, feel free to contact me via `zzhang🥳mail😲nankai😲edu😲cn`
