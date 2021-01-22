@@ -7,10 +7,10 @@
 
   <h3 align="center">Bilateral Attention Network for RGB-D Salient Object Detection</h3>
   <p align="center">
-    <!-- Published in IEEE Transactions on Image Processing (TIP) -->
+    Published in IEEE Transactions on Image Processing (TIP)
     <br />
-    <a href=#><strong> [Paper 📄]</strong></a>
-    <!-- <a href="https://arxiv.org/abs/2004.14582"><strong> [ArXiv 🌐]</strong></a> -->
+    <a href="https://ieeexplore.ieee.org/document/9321705?source=authoralert"><strong> [Paper 📄]</strong></a>
+    <a href="https://arxiv.org/abs/2004.14582"><strong> [ArXiv 🌐]</strong></a>
     <!-- <a href="https://arxiv.org/abs/2004.14582"><strong> [中译版 🐼]</strong></a> -->
     <a href="http://zhaozhang.net"><strong> [Homepage 🏠] »</strong></a>
     <br />
@@ -19,7 +19,7 @@
 
 ***
 <!-- The official repo of the paper
-[Bilateral Attention Network for RGB-D Salient Object Detection](https://arxiv.org/abs/2004.14582) -->
+[Bilateral Attention Network for RGB-D Salient Object Detection](https://ieeexplore.ieee.org/document/9321705?source=authoralert) -->
 
 
 ## Prerequisites
@@ -53,15 +53,18 @@ sh test.sh
 |  ResNet-50  | [[Google Drive]](https://drive.google.com/file/d/13vHFAR44v2bojEJppoB058QV0Vc9-Tm7/view?usp=sharing) [[Baidu Pan (o9l2)]](https://pan.baidu.com/s/1m0p7IN4GB2BWCcoj6kM_lw) | [[Google Drive]](https://drive.google.com/file/d/1E9kNo8PIZ4tbeoluQ0cJctFRKtffM_IY/view?usp=sharing) [[Baidu Pan (ssgc)]](https://pan.baidu.com/s/1cAnx70hZ5tLWEMmZXRlvVQ) |
 |  Res2Net-50  | [[Google Drive]](https://drive.google.com/file/d/1DppyXLs_toFi6bM5ZbGWip35BxLGfw4y/view?usp=sharing) [[Baidu Pan (k761)]](https://pan.baidu.com/s/1ycs9SI5bmIKBUbcNsrR7qQ) | [[Google Drive]](https://drive.google.com/file/d/1at-K6DfKNP2Gnao9f0v9agmzADkgt0Ik/view?usp=sharing) [[Baidu Pan (h3t9)]](https://pan.baidu.com/s/1YHVrDEl1-dCHgS2Fuc1Qzw) |
 
-<!-- ## Citation
+## Citation
 ```
 @article{zhang2020bianet,
   title={Bilateral attention network for rgb-d salient object detection},
   author={Zhang, Zhao and Lin, Zheng and Xu, Jun and Jin, Wenda and Lu, Shao-Ping and Fan, Deng-Ping},
-  journal={arXiv preprint arXiv:2004.14582},
-  year={2020}
+  journal={IEEE Transactions on Image Processing (TIP)},
+  volume={30},
+  pages={1949-1961},
+  doi={10.1109/TIP.2021.3049959},
+  year={2021},
 }
-``` -->
+```
 
 ## Contact
 If you have any questions, feel free to contact me via `zzhang🥳mail😲nankai😲edu😲cn`
